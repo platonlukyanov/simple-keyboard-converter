@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+}  
+
+* {
+    color: #064420;
+    font-family: 'SourceSansPro';
+    background: #FDFAF6;
+}
+
+html, body, #content {
+
+    height: 100%;
+}
+
+textarea {
+    height: 20vh;
+    width: 30vh;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid #09652f;
+    padding: 5%;
+    transition-duration: 0.5s;
+}
+
+textarea:focus {
+    border-radius: 0;
+    outline: none;
+}
+
+
+
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainform {
+    width: 60%;
+}
+
+.panel_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.panel {
+    width: 80%;
+    text-align: center;
+    padding: 5% 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 10px #FAF1E6;
+    transition-duration: 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 0 0 50px 20px #E4EFE7;
+}

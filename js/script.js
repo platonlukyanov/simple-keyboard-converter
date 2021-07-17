@@ -1,6 +1,6 @@
 const russian = document.querySelector("#russianInput"),
       english = document.querySelector("#englishInput");
-const russianKeyboard = `ё1234567890-=йцукенгшщзхъфывапролджэячсмитьбю.Ё!"№;%:?*()_+ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ,`;
+const russianKeyboard = `ё1234567890-=йцукенгшщзхъфывапролджэячсмитьбю.Ё!"№;%:?*()_+ЙЦУКЕНГШЩЗХЪ/ФЫВАПРОЛДЖЭЯЧСМИТЬБЮ,`;
 const englishKeyboard = "`1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL"+`:"ZXCVBNM<>?`;
 
 function get(object, key, defaultValue) {
